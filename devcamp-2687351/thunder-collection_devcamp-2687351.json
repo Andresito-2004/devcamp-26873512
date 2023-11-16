@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "devcamp-2687351",
-    "dateExported": "2023-11-09T21:18:28.179Z",
+    "dateExported": "2023-11-09T23:45:02.636Z",
     "version": "1.1",
     "folders": [
         {
@@ -16,6 +16,13 @@
             "name": "Courses",
             "containerId": "",
             "created": "2023-11-09T20:01:02.485Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "98173440-13ab-4224-b04b-f0432b33bfd8",
+            "name": "auth",
+            "containerId": "",
+            "created": "2023-11-09T22:46:44.196Z",
             "sortNum": 20000
         },
         {
@@ -394,6 +401,30 @@
             "modified": "2023-11-09T21:07:31.825Z",
             "headers": [],
             "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b2d87928-5fd8-47c5-8cfa-028d47a0dfbe",
+            "colId": "f9dbbf2c-c431-40ff-acc7-33164309845d",
+            "containerId": "98173440-13ab-4224-b04b-f0432b33bfd8",
+            "name": "Registro de usuario",
+            "url": "http://127.0.0.1:4500/Api/v1/devcamp/auth/register",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-11-09T22:50:31.011Z",
+            "modified": "2023-11-09T22:56:45.462Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Andres\",\n  \"email\": \"sarmientokrlos@gmail.com\",\n  \"role\": \"user\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            },
             "tests": []
         }
     ]
